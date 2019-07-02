@@ -1,6 +1,5 @@
-const Service = require("ada-cloud-boot/service");
+const Service = require("ada-cloud-hub/boot/service");
 
 const service = new Service();
-service.on('started', () => {
-});
+service.on('started', () => {});
 service.startup();
